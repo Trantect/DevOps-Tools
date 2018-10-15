@@ -1,0 +1,9 @@
+version: "2"
+services:
+  gitlab-multi-runner:
+    image: gitlab/gitlab-runner:alpine
+    container_name: gitlab-multi-runner
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - $PWD/config:/etc/gitlab-runner
+    restart: always

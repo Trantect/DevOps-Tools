@@ -2,8 +2,8 @@
 
 The quickest way to get start is [docker-compose](https://docs.docker.com/compose/)  
 
-`cd gitlab;docker-compose up -d`  
+`cd gitlab-runner;docker-compose up -d`  
 
 # More Info
 
-https://github.com/sameersbn/docker-gitlab
+https://docs.gitlab.com/runner/
