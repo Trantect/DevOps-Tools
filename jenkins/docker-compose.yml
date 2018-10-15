@@ -1,0 +1,12 @@
+version: '2'
+services:
+  jenkins:
+    restart: always
+    image: jenkins/jenkins:lts-alpine
+    container_name: jenkins
+    user: root
+    volumes:
+    - ${PWD}/data:/var/jenkins_home
+    ports:
+    - "80:8080"
+    - "50000:50000"
