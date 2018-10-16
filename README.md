@@ -4,7 +4,7 @@ A collection of common dockerized services for a company.
 
 ## [Gitlab](https://hub.docker.com/r/sameersbn/gitlab/tags/)
 
-<img src="https://about.gitlab.com/images/comparison/gitlab-logo.svg" height="100" width="100">  
+<img src="https://avatars0.githubusercontent.com/u/1086321?s=200&v=4" height="100" width="100">  
 
 web-based Git-repository, you can provide it by docker locally  
 
@@ -21,7 +21,7 @@ A Dockerfile for Sonatype Nexus Repository Manager 3, based on CentOS. It can be
 
 ## [Jenkins](https://hub.docker.com/r/jenkins/jenkins/)
 
-<img src="https://about.gitlab.com/images/comparison/jenkins-logo.svg" height="100" width="100">  
+<img src="https://wiki.jenkins.io/download/attachments/2916393/logo.png?version=1&modificationDate=1302753947000&api=v2" height="100" width="100">  
   
 The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
 
@@ -37,7 +37,7 @@ Works as a valid Helm Chart Repository, and also provides an API for uploading n
 
 ## [Backuppc](https://backuppc.github.io/backuppc/)  
 
-<img src="https://github.com/backuppc/backuppc/blob/master/images/logo320.png" height="100" width="200">  
+<img src="https://github.com/backuppc/backuppc/blob/master/images/logo320.png" height="100" width="300">  
 
 BackupPC is a high-performance, enterprise-grade system for backing up Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is highly configurable and easy to install and maintain.
 
