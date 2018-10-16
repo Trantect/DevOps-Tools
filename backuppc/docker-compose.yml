@@ -1,0 +1,12 @@
+backuppc:
+  restart: always
+  image: adferrand/backuppc
+  container_name: backuppc
+  ports:
+    - 80:8080
+  environment:
+    - TZ=Asia/Toyko
+  volumes:
+    - /data/backuppc/data:/data/backuppc
+    - /data/backuppc/etc:/etc/backuppc
+    - /data/backuppc/home:/home/backuppc
