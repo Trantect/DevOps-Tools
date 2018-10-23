@@ -41,6 +41,10 @@ Works as a valid Helm Chart Repository, and also provides an API for uploading n
 
 BackupPC is a high-performance, enterprise-grade system for backing up Linux, Windows and macOS PCs and laptops to a server's disk. BackupPC is highly configurable and easy to install and maintain.
 
+## [Openldap](https://www.openldap.org/)
+<img src="https://www.openldap.org/images/headers/LDAPworm.gif" height="120" width="305">  
+
+
 # Todo
 
 - [x] Gitlab
@@ -49,5 +53,5 @@ BackupPC is a high-performance, enterprise-grade system for backing up Linux, Wi
 - [x] Nexus3
 - [x] Chart-museum
 - [x] Backuppc
-- [ ] LDAP
+- [x] Openldap
 - [ ] Harbor

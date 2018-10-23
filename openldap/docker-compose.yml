@@ -1,0 +1,14 @@
+version: '2'
+services:
+  openldap:
+    container_name: openldap
+    image: pgarrett/ldap-alpine
+    restart: always
+    ports:
+     - "389:389"
+    volumes:
+     - "${PWD}/data/ldif:/ldif"
+     - "${PWD}/data/openldap:/var/lib/openldap/openldap-data"
+    environment:
+     - TLS_VERIFY_CLIENT=never
+     - ORGANISATION_NAME=Trantect Inc
