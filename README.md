@@ -34,4 +34,4 @@
     OpenVPN is a free and open-source software application that implements virtual private network (VPN) techniques to create secure point-to-point or site-to-site connections in routed or bridged configurations and remote access facilities. It uses a custom security protocol[9] that utilizes SSL/TLS for key exchange.
 
 # Todo  
-[-] create Helm chart for Kubernetes.
+- [ ] create Helm chart for Kubernetes.
