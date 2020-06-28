@@ -1,0 +1,29 @@
+version: "3"
+
+# https://hub.docker.com/r/gocd/gocd-agent-alpine-3.11
+
+services:
+  go-server:
+    restart: always
+    image: gocd/gocd-server:v20.5.0
+    container_name: go-server
+    volumes:
+      - "/path/to/godata:/godata"
+      - "/path/to/home-dir:/home/go"
+    ports:
+      - "8153:8153"
+      - "8154:8154"
+    environment:
+      - GOCD_PLUGIN_INSTALL_docker-elastic-agents='https://github.com/gocd-contrib/docker-elastic-agents/releases/download/v0.8.0/docker-elastic-agents-0.8.0.jar'
+      - GOCD_SERVER_JVM_OPTS='-Xmx4096mb -Dfoo=bar'
+
+  go-agent:
+      restart: always
+      image: gocd/gocd-agent-alpine-3.11:v20.5.0
+      container_name: go-agent
+      volumes:
+        - "/path/to/godata:/godata"
+        - "/path/to/home-dir:/home/go"
+      environment:
+        - GO_SERVER_URL='http://ip.add.re.ss:8153/go'
+
