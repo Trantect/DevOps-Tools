@@ -14,7 +14,7 @@
     GitLab Runner is the open source project that is used to run your jobs and send the results back to GitLab.
     It is used in conjunction with GitLab CI, the open-source continuous integration service included with GitLab that coordinates the jobs.  
 
-* [GOCD](https://www.gocd.org/)
+* [GOCD](https://www.gocd.org/)  
     An open-source Continuous Integration and Continuous Delivery system.
     
 * [Nexus3](https://hub.docker.com/r/sonatype/nexus3/tags/)  
